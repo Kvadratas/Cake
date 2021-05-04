@@ -1,0 +1,85 @@
+body, body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-break: break-all;
+}
+body{
+    background: rgb(254,57,100);
+    background: -moz-linear-gradient(15deg, rgba(254,57,100,1) 35%, rgba(255,192,0,1) 100%);
+    background: -webkit-linear-gradient(15deg, rgba(254,57,100,1) 35%, rgba(255,192,0,1) 100%);
+    background: linear-gradient(15deg, rgba(254,57,100,1) 35%, rgba(255,192,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fe3964",endColorstr="#ffc000",GradientType=1);
+    height: 100vh;
+}
+.virsus{
+    background-color: #fe3a66;
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.top-linkas > a{
+    color: white;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+.top-linkas > a:hover{
+    text-decoration: underline;
+}
+.font{
+    font-family: sans-serif;
+}
+.login-sign-up > a{
+    color: #fe3a66;
+    background-color: white;
+    padding: 5px 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.turinys{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.left-column{
+    width: 340px;
+    height: 300px;
+    margin-top: 7%;
+    padding: 20px;
+}
+.right-column{
+    width: 340px;
+    height: 300px;
+    padding: 100px;
+}
+.title{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.order-linkas > a{
+    color: #fe3a66;
+    background-color: white;
+    padding: 5px 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.soc-medijos{
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.soc-medijos > a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
